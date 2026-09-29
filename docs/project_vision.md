@@ -1,5 +1,5 @@
 Project Name:
-EcoKids OS
+EcoKids-OS
 
 Theme:
 Interactive Environmental Adventure OS
