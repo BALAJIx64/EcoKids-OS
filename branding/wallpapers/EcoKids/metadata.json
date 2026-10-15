@@ -1,0 +1,18 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "balajix64@ecokids.org",
+                "Name": "EcoKids OS Design Team"
+            }
+        ],
+        "Id": "EcoKids",
+        "License": "CC-BY-SA-4.0",
+        "Name": "EcoKids Living World"
+    },
+    "X-KDE-PlasmaImageWallpaper-AccentColor": {
+        "Dark": "#15803d",
+        "Light": "#22c55e"
+    },
+    "X-KDE-CrossFade": true
+}

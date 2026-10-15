@@ -1,10 +1,44 @@
-# Python bytecode and caches
+
+# Python caches and bytecode
 __pycache__/
 *.py[cod]
 *$py.class
-*.tmp
 
-# Virtual environments
+# Python virtual environments
 venv/
 .venv/
 env/
+
+# Node.js dependencies
+**/node_modules/
+
+# Frontend build output
+**/dist/
+
+# Rust / Tauri build artifacts
+**/target/
+
+# Generated Linux installers
+*.deb
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Electron generated output
+**/dist-electron/
+**/linux-unpacked.tmp/
+
+# Other generated build artifacts
+**/node_modules/
+**/dist/
+**/target/

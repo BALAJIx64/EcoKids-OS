@@ -1,0 +1,16 @@
+{
+    "KPackageStructure": "Plasma/LookAndFeel",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "balajix64@ecokids.org",
+                "Name": "EcoKids OS Design Team"
+            }
+        ],
+        "Description": "Futuristic Living Planet desktop experience for EcoKids OS",
+        "Id": "org.ecokids.desktop",
+        "License": "GPL-3.0+",
+        "Name": "EcoKids Living World",
+        "Version": "1.0.0"
+    }
+}

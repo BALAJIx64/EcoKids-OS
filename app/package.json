@@ -1,0 +1,63 @@
+{
+  "name": "app",
+  "private": true,
+  "version": "1.0.0",
+  "description": "EcoKids Environmental Education Desktop OS",
+  "homepage": "https://ecokids.local",
+  "author": "EcoKids Team",
+  "main": "electron/main.cjs",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "oxlint",
+    "preview": "vite preview",
+    "electron:dev": "electron . --dev",
+    "electron:start": "electron .",
+    "pack:linux": "electron-builder --linux dir",
+    "dist:linux": "electron-builder --linux deb AppImage dir"
+  },
+  "dependencies": {
+    "canvas-confetti": "^1.9.4",
+    "lucide-react": "^1.56.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@types/canvas-confetti": "^1.9.0",
+    "@types/node": "^24.13.3",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@vitejs/plugin-react": "^6.1.1",
+    "electron": "44.7.2",
+    "electron-builder": "^26.15.3",
+    "oxlint": "^1.81.0",
+    "typescript": "~6.0.2",
+    "vite": "^8.3.0"
+  },
+  "build": {
+    "electronVersion": "44.7.2",
+    "appId": "org.ecokids.app",
+    "productName": "EcoKids",
+    "executableName": "ecokids",
+    "directories": {
+      "output": "dist-electron"
+    },
+    "files": [
+      "dist/**/*",
+      "electron/**/*",
+      "package.json"
+    ],
+    "linux": {
+      "target": [
+        "dir",
+        "deb"
+      ],
+      "category": "Education",
+      "icon": "electron/icons/icon.png",
+      "maintainer": "EcoKids Team <support@ecokids.local>",
+      "synopsis": "EcoKids OS Environmental Educational Desktop Platform",
+      "description": "Interactive, offline-ready environmental games, quizzes, carbon footprint tracker, and eco-action activities for kids."
+    }
+  }
+}

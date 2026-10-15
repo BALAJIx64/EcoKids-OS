@@ -1,0 +1,24 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "balajix64@ecokids.org",
+                "Name": "EcoKids OS Design Team"
+            }
+        ],
+        "Category": "Environment",
+        "Description": "Interactive Living Planet and Environmental Status component for EcoKids OS",
+        "FormFactors": [
+            "desktop"
+        ],
+        "Icon": "planet",
+        "Id": "org.ecokids.livingworld",
+        "License": "GPL-3.0+",
+        "Name": "EcoKids Living World",
+        "Version": "1.0.0",
+        "Website": "https://ecokids.org"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "X-Plasma-MainScript": "ui/main.qml"
+}
